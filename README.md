@@ -31,3 +31,7 @@ The char_batt() function calculates the charging input energy to the battery whe
 ### Running the tests
 
 The tests are executed on travis-ci. The tests are written in **pytest** testing configuration. There are no additional dependencies/packages needed to run the tests
+
+### Contributing
+
+Please read CONTRIBUTING.srt for details on our code of conduct, and the process for submitting pull requests to us.
