@@ -9,7 +9,7 @@ from batteryfunctions import battery_SOC
 
 # Testing the battery charging function
 def test_charge_batt():
-    assert char_batt(50, 45) == 5
+    assert char_batt(50, 35) == 5
 
 # Testing the battery discharging function
 def test_discharge_batt():
