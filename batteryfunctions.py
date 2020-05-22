@@ -13,6 +13,9 @@ def char_batt(PV_out, E_load):
         E_in = PV_out - E_load
         return E_in
     # if the condition is not true
+    
+    
+    
     else:
         return "Can't Charge: PV output is lower than the load"
 
