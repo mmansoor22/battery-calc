@@ -7,19 +7,21 @@
 # due to input from PV and comparing it with electric load is in kWh unit.
 
 # Function for calculating battery charging with solar PV output (kW) and electric load (kW) as inputs
+
+
 def char_batt(PV_out, E_load):
     # When solar PV output is greater than electric load, put the surplus into battery
     if PV_out > E_load:
         E_in = PV_out - E_load
         return E_in
     # if the condition is not true
-    
-    
-    
+
     else:
         return "Can't Charge: PV output is lower than the load"
 
 # Function for calculating battery discharging with solar PV output (kW) and electric load (kW) as inputs
+
+
 def dischar_batt(PV_out, E_load):
     # When solar PV output is less than electric load, get the insufficient energy from battery
     if PV_out < E_load:
